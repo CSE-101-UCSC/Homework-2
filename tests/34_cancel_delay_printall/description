@@ -1,0 +1,1 @@
+Add 40 flights, cancel 16, delay 47 in irregularly interleaved order; print all remaining flights in departure-time order.

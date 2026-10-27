@@ -1,0 +1,6 @@
+FlightManager
+FlightManager.exe
+*.o
+test_output/
+tests/*/output.txt
+.DS_Store

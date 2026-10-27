@@ -1,0 +1,12 @@
+{
+  "name": "CSE 101 Homework 2",
+  "image": "mcr.microsoft.com/devcontainers/cpp:1-ubuntu-22.04",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.cpptools"
+      ]
+    }
+  },
+  "postCreateCommand": "g++ --version && make --version | head -1 && python3 --version"
+}

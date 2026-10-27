@@ -1,0 +1,5 @@
+# Keep Unix line endings so the scripts and test files work on every machine.
+* text=auto eol=lf
+
+# Some test inputs have Windows line endings on purpose; keep their bytes exactly.
+tests/*/input.txt -text
